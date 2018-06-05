@@ -22,7 +22,7 @@ public class bookTest extends TestCase {
 	@Test
 	public void testGetPubYear() {
 		DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd");
-		TestCase.assertEquals("2018/06/06", dateFormat.format(bkTest.getPubYear()));
+		TestCase.assertEquals("2018/06/05", dateFormat.format(bkTest.getPubYear()));
 	}
 
 	@Test
