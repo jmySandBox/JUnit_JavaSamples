@@ -1,0 +1,5 @@
+Person prsn = new Person();
+Books bk = new Books();
+
+System.out.println(prsn.getName() + " - is only allowed To Checkout a max Book Count of " + prsn.getMaxBooks());
+//System.out.println(prsn.getName() + " Checked Out " + bk.getTitle() + " Written By " + bk.getAuthor() + " in " + dateFormat.format(bk.getPubYear()));
